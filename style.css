@@ -10,34 +10,43 @@ body {
     box-sizing: border-box;
     padding: 20px;
     gap: 10px;
+    background-color: lightblue;
 }
 
 #descricao-container {
     width: 30%;
-    height: 100%;
+    height: 50%;
 }
 
 #logo {
     width: 100%;
     height: 50%;
     border-radius: 10px;
+    border: 3px solid black;
+}
+
+#descricao {
+    font-size: 3vw;
 }
 
 #slider {
     width: 70%;
-    height: 100%;    
     border-radius: 10px;
+    border: 3px solid black;
     overflow: hidden;
 }
 
 #slides {
     display: flex;
     width: 400%;
+    border-radius: 10px;
+    height: 100%;
 }
 
 .slide {
     width: 25%;
     transition: 2s;
+    height: 100%;
 }
 
 #primeira {
